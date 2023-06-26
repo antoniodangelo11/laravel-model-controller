@@ -8,11 +8,11 @@
     </head>
     <body>
         @include('partials.header')
-        <div class="container">
-            <main>
-                @yield('contents')
-            </main>
-        </div>
+        
+        <main>
+            @yield('contents')
+        </main>
+        
         @include('partials.footer')
     </body>
 </html>
